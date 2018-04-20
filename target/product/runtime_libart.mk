@@ -65,7 +65,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     dalvik.vm.usejit=true \
     dalvik.vm.usejitprofiles=false \
     dalvik.vm.dexopt.secondary=true \
-    dalvik.vm.appimageformat=lz4
+    dalvik.vm.appimageformat=lz4 \
+    dalvik.vm.gctype=GSS
 
 # make "boot" reasons only extract for faster turnaround.
 
